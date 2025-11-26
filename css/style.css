@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* Ajuste color columna izquierda */
+.bg-primary{
+    background-color: #2c3e50 !important;
+}
+
+.progress{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.progress-bar{
+    background-color: white;
+}
+
+/* cambio color texto columna derecha */
+.text-primary{
+    color:#3498db !important;
+}
+
+/* efecto para las card */
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.print{
+    font-size: 85%;
+}
